@@ -63,7 +63,7 @@
                     <h3 class="about-subtitle">Intereses</h3>
                     <p class="about-text">Me apasiona la tecnología, el diseño web y la creación de soluciones digitales que generen un impacto positivo.</p>
                     
-                    <a href="https://www.linkedin.com/in/tom%C3%A1s-ghizzoni-2922a0194/" class="btn btn-outline-light mt-3" target="_blank">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/tomas-ghizzoni-2922a0194/" class="btn btn-outline-light mt-3" target="_blank">LinkedIn</a>
                     <a href="https://github.com/tomasghizzoni" class="btn btn-outline-light mt-3" target="_blank">GitHub</a>
                     <a href="cv/CVTOMASespañolGHIZZONI.pdf" class="btn btn-outline-light mt-3" target="_blank">Currículum</a>
                 </div>
@@ -72,40 +72,89 @@
     </section>
     
 
-    <section id="projects" class="projects-section py-5">
+     <section id="projects" class="projects-section py-5">
         <div class="container">
             <div class="text-center mb-5">
                 <h2>Proyectos</h2>
-                <p>Algunos de los proyectos en los que he trabajado recientemente.</p>
+                <p>Aquí puedes ver algunos ejemplos de mis proyectos en video.</p>
             </div>
             <div class="row">
+                <!-- Video 1 -->
                 <div class="col-md-4">
-                    <div class="card project-card">
-                        <img src="./img/pro1.webp" class="card-img-top" alt="Project 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Agencia de Viajes con JavaScript</h5>
-                            <p class="card-text">Desarrollé una página web interactiva para una agencia de viajes, utilizando JavaScript para crear una experiencia de usuario dinámica. La plataforma permite a los usuarios explorar destinos, consultar precios y reservar sus vacaciones de manera intuitiva y eficiente.</p>
-                            <a href="#" class="btn btn-primary">Ver Proyecto</a>
+                    <div class="video-thumbnail">
+                        <img src="./img/viajamundo.png" alt="Video 1" class="img-fluid" data-toggle="modal" data-target="#videoModal1">
+                        <h5 class="video-title">Agencia de Viajes Interactiva</h5>
+                    </div>
+                </div>
+                <!-- Video 2 -->
+                <div class="col-md-4">
+                    <div class="video-thumbnail">
+                        <img src="./img/newsnews.png" alt="Video 2" class="img-fluid" data-toggle="modal" data-target="#videoModal2">
+                        <h5 class="video-title">Periodico Digital</h5>
+                    </div>
+                </div>
+                <!-- Video 3 -->
+                <div class="col-md-4">
+                    <div class="video-thumbnail">
+                        <img src="./img/marketD.png" alt="Video 3" class="img-fluid" data-toggle="modal" data-target="#videoModal3">
+                        <h5 class="video-title">Empresa de Marketing Digital</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Modals -->
+        <!-- Modal Video 1 -->
+        <div class="modal fade" id="videoModal1" tabindex="-1" aria-labelledby="videoModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="videoModal1Label">Agencia de Viajes Interactiva</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GVY2gQVfIQM?si=bpJKn1EoEARepBX1" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card project-card">
-                        <img src="./img/pro2.webp" class="card-img-top" alt="Project 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Startup Tecnológica</h5>
-                            <p class="card-text">Construí un sitio web moderno para una startup tecnológica, enfocado en la presentación de productos innovadores. Implementé un diseño limpio y minimalista, con animaciones sutiles y una interfaz de usuario que refleja el carácter futurista de la empresa.</p>
-                            <a href="#" class="btn btn-primary">Ver Proyecto</a>
+            </div>
+        </div>
+    
+        <!-- Modal Video 2 -->
+        <div class="modal fade" id="videoModal2" tabindex="-1" aria-labelledby="videoModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="videoModal2Label">Startup Tecnológica</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ukeicv6zt5I?si=azoFd1CMPBRDgvO1" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card project-card">
-                        <img src="./img/pro3.webp" class="card-img-top" alt="Project 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Blog Personal Creativo</h5>
-                            <p class="card-text">Diseñé un blog personal con un enfoque en la creatividad y la escritura. Utilicé un diseño acogedor y artístico, con elementos visuales que invitan a los lectores a sumergirse en contenidos únicos y bien elaborados.</p>
-                            <a href="#" class="btn btn-primary">Ver Proyecto</a>
+            </div>
+        </div>
+    
+        <!-- Modal Video 3 -->
+        <div class="modal fade" id="videoModal3" tabindex="-1" aria-labelledby="videoModal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="videoModal3Label">Blog Personal Creativo</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Vb1z4_jKuTA?si=FQYRbdVkuGSdkT6B" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
