@@ -139,49 +139,42 @@ body {
 }
 
 
-.contact-section {
-    padding: 60px 0;
+#contacto {
+    text-align: center; /* Centrar texto */
+    background-color: #f8f9fa00; /* Color de fondo suave */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
 }
 
-.contact-section h2 {
-    color: #ffffff;
-    font-size: 2.5rem;
-    margin-bottom: 30px;
+#contacto h2{
+    color: #ffffff; 
 }
 
-.contact-section p {
-    color: #ffffff;
-    font-size: 1.1rem;
-    margin-bottom: 30px;
+#contacto p{
+    color: #ffffff; 
 }
 
-.form-group label {
-    color: #63e;
-    font-size: 1rem;
-    margin-bottom: 10px;
-    display: inline-block;
+#contacto ul {
+    list-style: none; /* Quita los puntos de la lista */
+    padding: 0;
+    
 }
 
-.form-control {
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid #63e;
-    border-radius: 0.25rem;
-    color: #ffffff;
-    font-size: 1rem;
-    padding: 10px;
-    margin-bottom: 20px;
-    transition: background-color 0.3s, border-color 0.3s;
+#contacto li {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff; 
 }
 
-.form-control:focus {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-color: #ffffff;
-    outline: none;
-    box-shadow: none;
+#contacto a {
+    color: #007bff; /* Azul, estilo enlace */
+    text-decoration: none;
+    font-weight: bold;
 }
 
-textarea.form-control {
-    resize: none;
+#contacto a:hover {
+    text-decoration: underline;
 }
 
 .btn-outline-light {
